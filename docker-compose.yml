@@ -1,0 +1,8 @@
+version: "2.2"
+services:
+  publisher-service:
+    container_name: valheim
+    build:
+      context: .
+    image: valheim/custom
+    restart: always
