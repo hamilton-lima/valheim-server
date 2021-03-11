@@ -16,7 +16,7 @@ echo ""
 
 while :
 do
-TIMESTAMP=$(date ‘+%Y-%m-%d %H:%M:%S’)
-echo “valheim.service: timestamp ${TIMESTAMP}”
+TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
+echo "valheim.service: timestamp ${TIMESTAMP}"
 sleep 60
 done
