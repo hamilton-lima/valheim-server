@@ -1,6 +1,6 @@
 version: "2.2"
 services:
-  publisher-service:
+  valheim-service:
     container_name: valheim
     build:
       context: .
@@ -8,3 +8,6 @@ services:
     restart: always
     ports: 
       - "2456-2457:2456-2457/udp"
+    volumes:
+      - ./valheim-data:/home/steam/valheim-data
+  
