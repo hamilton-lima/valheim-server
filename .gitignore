@@ -1,2 +1,4 @@
 *.pem
 valheim-private-server.pem:Zone.Identifier
+test/node_modules
+notes
