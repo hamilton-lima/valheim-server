@@ -7,9 +7,7 @@ RUN /home/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /home/s
 
 COPY start_server.sh /home/steam/valheim/
 COPY worlds /home/steam/.config/unity3d/IronGate/Valheim/worlds
-COPY adminlist.txt /home/steam/.config/unity3d/IronGate/Valheim/adminlist.txt
-COPY bannedlist.txt /home/steam/.config/unity3d/IronGate/Valheim/bannedlist.txt
-COPY permittedlist.txt /home/steam/.config/unity3d/IronGate/Valheim/permittedlist.txt
+COPY default-config/* /home/steam/.config/unity3d/IronGate/Valheim
 
 CMD bash /home/steam/valheim/start_server.sh
 
