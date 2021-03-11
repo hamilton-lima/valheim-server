@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "cli": "gamedig --type valheim --host localhost --port 2456"
   },
   "author": "",
   "license": "ISC",

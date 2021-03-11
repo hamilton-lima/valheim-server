@@ -6,6 +6,8 @@ RUN mkdir /home/steam/valheim
 RUN /home/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /home/steam/valheim +app_update 896660 validate +exit
 
 COPY start_server.sh /home/steam/valheim/
+COPY variables.env /home/steam/valheim/
+
 COPY worlds /home/steam/.config/unity3d/IronGate/Valheim/worlds
 COPY default-config/* /home/steam/.config/unity3d/IronGate/Valheim
 
