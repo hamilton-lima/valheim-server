@@ -6,3 +6,5 @@ services:
       context: .
     image: valheim/custom
     restart: always
+    ports: 
+      - "2456-2457:2456-2457/udp"

@@ -12,4 +12,3 @@ CMD bash /home/steam/valheim/start_server.sh
 
 EXPOSE 2456/udp
 EXPOSE 2457/udp
-EXPOSE 2458/udp
