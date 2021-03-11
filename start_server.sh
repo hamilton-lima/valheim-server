@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o xtrace
+# set -o xtrace
 
 export templdpath=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=./linux64:$LD_LIBRARY_PATH
